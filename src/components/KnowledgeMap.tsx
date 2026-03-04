@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const DOMAINS = [
   { id: "events", label: "Tapahtumatuotanto", color: "#FF6B35", skills: ["Festivaalien rakentaminen nollasta","Artistien bookkaus & sopimukset","Ääni- & valotekniikka","Sponsori- & yhteistyömyynti","Turvallisuus & viranomaisvelvoitteet","Myyntipaikkasopimusten hallinta","Tiimien koordinointi & työnjako"], emoji: "🎪" },
-  { id: "tech", label: "Teknologia & Automaatio", color: "#00C9A7", skills: ["n8n-automaatiot","API-integraatiot","Projektinhallinta järjestelmät","Laskutuksen automatisointi","Digitaalinen infrastruktuuri"], emoji: "⚡" },
+  { id: "tech", label: "Teknologia & Automaatio", color: "#00C9A7", skills: ["n8n-automaatiot","API-integraatiot","Projektinhallinta järjestelmät","Laskutuksen automatisointi","Digitaalinen infrastruktuuri","TypeScript","JavaScript","Astro","Next.js / React","HTML & CSS / SCSS","Shell & PowerShell","Dockerfile","Linux","macOS","Windows","VSCode","Neovim"], emoji: "⚡" },
   { id: "performance", label: "Esiintyminen & Viestintä", color: "#7B61FF", skills: ["17v juontajakokemus","DJ / muusikko","Kouluttaminen & webinaarit","Myyntitekstit & pitchit","Sosiaalisen median sisällöt"], emoji: "🎤" },
   { id: "business", label: "Liiketoiminta & Myynti", color: "#FF3366", skills: ["16v yrittäjäkokemus","B2B-myynti & tarjoukset","Yhteistyösopimusten neuvottelu","Hinnoittelu & budjetointi","Asiakashankinta & liidit","Markkinointi & brändistrategia"], emoji: "💼" },
   { id: "creative", label: "Luova tuotanto", color: "#FFB800", skills: ["Konseptien kehittäminen","Sisältömarkkinointi (blogit, some)","Videotuotanto","DJ-settien kuratointi","Tapahtumabrändäys","Valo- ja videokuvaus"], emoji: "🎨" },
