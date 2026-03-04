@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { EtherealShadow } from "@/components/ui/etheral-shadow";
+import ClientLogos from "@/components/ClientLogos";
 
 const services = [
   { emoji: "🎪", title: "Tapahtumatuotanto", desc: "Lähes 100 tapahtumaa – pienistä yritystilaisuuksista 2000 hengen festivaaleihin. Töitä tehty NoHo Partnersille, Night People Groupille, Wall Investille ja OmaSp Stadionfestille." },
@@ -45,6 +46,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ClientLogos />
 
       {/* SERVICES */}
       <section style={{ padding: "100px 24px", background: "#0a0a0a" }}>
