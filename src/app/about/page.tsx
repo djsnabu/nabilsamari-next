@@ -1,9 +1,9 @@
 import KnowledgeMap from "@/components/KnowledgeMap";
 
 const experience = [
-  { period: "2010 – nykyhetki", title: "Yrittäjä / Creative Technologist", company: "Nice Events (Kivat Tapahtumat Oy)", desc: "B2B-myyntiä, tapahtumatuotantoa, web-kehitystä ja markkinointia. Oman festivaalin (Pällkäneen Kesäpäivät) perustaminen ja tuottaminen. Automaatioiden ja prosessien rakentaminen." },
-  { period: "2021 – 2024", title: "Tapahtuma- ja markkinointipäällikkö", company: "Night People Group Oy", desc: "Digitaalisen markkinoinnin kokonaisvastuu (sosiaalinen media, Google Ads). Markkinoinnin automaatioiden ja työkalujen käyttöönotto. Henkilöstön kouluttaminen uusiin järjestelmiin." },
-  { period: "2008 – nykyhetki", title: "Freelance-muusikko, DJ & juontaja", company: "Esiintyjä", desc: "Kitaristi (mm. HesaÄijä), esiintymisiä valtakunnallisesti. Vahva esiintymis- ja vuorovaikutustaito. 17+ vuoden kokemus lavallaolosta." },
+  { period: "2010 – nykyhetki", title: "Yrittäjä / Creative Technologist", company: "Nice Events (Kivat Tapahtumat Oy)", desc: "Perusti ja rakentaa edelleen omaa tapahtuma- ja teknologiayhtiötä. Asiakkaina yritykset, artistit ja ravintolat. Vastaa myynnistä, tuotannosta, web-kehityksestä ja automaatioista. Perusti Pällkäneen Kesäpäivät -festivaalin." },
+  { period: "2021 – 2024", title: "Tapahtuma- ja markkinointipäällikkö", company: "Night People Group Oy (Wall Invest)", desc: "Vastasi koko ravintolaketjun tapahtumista ja digitaalisesta markkinoinnista. Otti käyttöön markkinoinnin automaatiot, koulutti tiimin ja rakensi prosessit skaalautuviksi." },
+  { period: "2008 – nykyhetki", title: "Muusikko, DJ & juontaja", company: "Freelance", desc: "Kitaristi mm. HesaÄijässä, DJ-keikkoja ja juontamista ympäri Suomea. Esiintynyt mm. OmaSp Stadionfestillä. 17+ vuotta lavalla on opettanut enemmän ihmisten lukemisesta kuin mikään kurssi." },
 ];
 
 const skills = [
@@ -34,10 +34,10 @@ export default function About() {
       <section style={{ padding: "60px 24px", background: "#0a0a0a" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
           <p style={{ fontSize: 20, lineHeight: 1.8, color: "#ccc" }}>
-            Olen Nabil Samari – yrittäjä, muusikko ja teknologia-entusiasti Seinäjoelta. Yli 16 vuoden yrittäjäkokemuksella yhdistän luovan ajattelun ja teknisen osaamisen tavalla, joka tuottaa tuloksia.
+            Olen Nabil Samari. Olen tuottanut lähes 100 tapahtumaa, rakentanut viisi verkkosivustoa ja automatisoinut liiketoimintaprosesseja joista osa säästää 10 000 € kuussa. Seinäjoelta käsin, mutta töissä ympäri Suomen.
           </p>
           <p style={{ fontSize: 18, lineHeight: 1.8, color: "#888", marginTop: 24 }}>
-            Tapahtumatuotantoa, web-kehitystä, automaatioita, valo- ja videokuvausta sekä musiikkia – rakennan kokonaisuuksia jotka toimivat. Puhun sujuvasti suomea, englantia, arabiaa ja venäjää.
+            Minua ei tarvitse valita luovuuden ja tekniikan väliltä – tuon molemmat samaan pakettiin. Olen yhtä lailla kotona festivaalilavan takapuolella kuin terminaalissa tai asiakasneuvottelussa. Puhun sujuvasti suomea, englantia, arabiaa ja venäjää.
           </p>
         </div>
       </section>

@@ -15,11 +15,11 @@ export default function Footer() {
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16, borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: 24 }}>
           <p style={{ color: "#444", fontSize: 13 }}>© 2025 Nabil Samari</p>
-          <div style={{ display: "flex", gap: 24 }}>
-            <a href="https://www.linkedin.com/in/nabilsamari/" target="_blank" rel="noopener noreferrer" style={{ color: "#555", fontSize: 13, transition: "color 0.2s" }}
-              onMouseEnter={e => (e.currentTarget.style.color = "#c9a84c")}
-              onMouseLeave={e => (e.currentTarget.style.color = "#555")}>LinkedIn</a>
-            <Link href="/contact" style={{ color: "#555", fontSize: 13 }}>Contact</Link>
+          <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
+            <a href="https://www.linkedin.com/in/nabilsamari/" target="_blank" rel="noopener noreferrer" style={{ color: "#555", fontSize: 13, transition: "color 0.2s" }} onMouseEnter={e => (e.currentTarget.style.color = "#c9a84c")} onMouseLeave={e => (e.currentTarget.style.color = "#555")}>LinkedIn</a>
+            <a href="https://www.instagram.com/djsnabu/" target="_blank" rel="noopener noreferrer" style={{ color: "#555", fontSize: 13, transition: "color 0.2s" }} onMouseEnter={e => (e.currentTarget.style.color = "#c9a84c")} onMouseLeave={e => (e.currentTarget.style.color = "#555")}>Instagram</a>
+            <a href="https://www.tiktok.com/@djsnabu" target="_blank" rel="noopener noreferrer" style={{ color: "#555", fontSize: 13, transition: "color 0.2s" }} onMouseEnter={e => (e.currentTarget.style.color = "#c9a84c")} onMouseLeave={e => (e.currentTarget.style.color = "#555")}>TikTok</a>
+            <a href="https://www.facebook.com/nabilsamari" target="_blank" rel="noopener noreferrer" style={{ color: "#555", fontSize: 13, transition: "color 0.2s" }} onMouseEnter={e => (e.currentTarget.style.color = "#c9a84c")} onMouseLeave={e => (e.currentTarget.style.color = "#555")}>Facebook</a>
           </div>
         </div>
       </div>

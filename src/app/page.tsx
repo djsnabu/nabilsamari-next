@@ -2,16 +2,16 @@ import Link from "next/link";
 import { EtherealShadow } from "@/components/ui/etheral-shadow";
 
 const services = [
-  { emoji: "🎪", title: "Tapahtumatuotanto", desc: "Nice Events, Pällkäneen Kesäpäivät ja yli 16 vuoden kokemus tapahtumien suunnittelusta ja toteutuksesta." },
-  { emoji: "🎬", title: "Valo- ja videokuvaus", desc: "Sisällöntuotantoa, editointia ja visuaalista tarinankerrontaa. Adobe Creative Suite, DaVinci Resolve." },
+  { emoji: "🎪", title: "Tapahtumatuotanto", desc: "Lähes 100 tapahtumaa – pienistä yritystilaisuuksista 2000 hengen festivaaleihin. Töitä tehty NoHo Partnersille, Night People Groupille, Wall Investille ja OmaSp Stadionfestille." },
+  { emoji: "🎬", title: "Valo- ja videokuvaus", desc: "Markkinointimateriaalia, tuotekuvausta, some-sisältöä ja tapahtumakuvausta. Referensseinä Seinäjoen kauppakeskukset ja NoHo Partnersin ravintolat." },
   { emoji: "🌐", title: "Web-kehitys & AI", desc: "Verkkosivustoja, web-sovelluksia ja tekoälyratkaisuja. Modernit teknologiat, käyttäjälähtöinen suunnittelu." },
-  { emoji: "⚡", title: "Automaatiot & integraatiot", desc: "Prosessien tehostamista n8n-, Zapier- ja API-integraatioilla. Säästää aikaa ja rahaa." },
+  { emoji: "⚡", title: "Automaatiot & integraatiot", desc: "Keikkamyynti, sopimukset, laskutus ja CRM pyörivät automaattisesti. Dokumentoituja säästöjä 300–10 000 €/kk." },
 ];
 
 const stats = [
-  { value: "16+", label: "Vuotta kokemusta" },
-  { value: "4", label: "Kieltä sujuvasti" },
-  { value: "17+", label: "Vuotta esiintymistä" },
+  { value: "~100", label: "Tuotettua tapahtumaa" },
+  { value: "2000", label: "Hengen festivaali" },
+  { value: "300–10k€", label: "Säästöjä/kk automaatioilla" },
 ];
 
 const blogPosts = [
@@ -33,7 +33,7 @@ export default function Home() {
             Nabil<br />Samari
           </h1>
           <p style={{ fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.7)", lineHeight: 1.6, marginBottom: 40, maxWidth: 560, margin: "0 auto 40px" }}>
-            Luovuutta, teknologiaa ja tarinankerrontaa. Rakennan tapahtumia, verkkosivustoja ja automaatioita jotka toimivat.
+            Lähes 100 tapahtumaa tuotettuna. Viisi verkkosivustoa käytössä. Automaatiot jotka säästävät 300–10 000 €/kk. Ja ihminen joka osaa puhua sekä koodille että asiakkaalle.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <Link href="/contact" style={{ padding: "14px 32px", background: "#c9a84c", color: "#000", fontWeight: 700, fontSize: 15, borderRadius: 4, transition: "opacity 0.2s" }}>
@@ -96,7 +96,7 @@ export default function Home() {
       {/* CTA */}
       <section style={{ padding: "120px 24px", background: "#000", textAlign: "center" }}>
         <div style={{ maxWidth: 700, margin: "0 auto" }}>
-          <p style={{ fontSize: 13, color: "#555", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 16 }}>Projekti mielessä?</p>
+          <p style={{ fontSize: 13, color: "#555", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 16 }}>Projekti, avoin paikka tai yhteistyö?</p>
           <a href="mailto:nabil.samari@gmail.com" style={{ fontSize: "clamp(28px, 5vw, 56px)", fontWeight: 800, letterSpacing: "-0.02em", color: "#fff", display: "block", marginBottom: 40, transition: "color 0.2s" }}>
             nabil.samari@gmail.com
           </a>

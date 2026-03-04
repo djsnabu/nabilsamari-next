@@ -1,23 +1,23 @@
 const services = [
   {
     num: "01", emoji: "🎪", title: "Tapahtumatuotanto",
-    desc: "Yli 16 vuoden kokemus tapahtumien suunnittelusta ja toteutuksesta. Festivaaleista yritystilaisuuksiin.",
+    desc: "Lähes 100 tapahtumaa tuotettuna – Pällkäneen Kesäpäivät (2000 hlö), OmaSp Stadionfest, NoHo Partners, Night People Group, Wall Invest. Koko ketju artistibookkingista lavapurkuun.",
     items: ["Festivaalien rakentaminen nollasta", "Artistien bookkaus & sopimukset", "Ääni- & valotekniikka", "Sponsori- & yhteistyömyynti", "Tiimien koordinointi", "Pällkäneen Kesäpäivät -festivaali"],
   },
   {
     num: "02", emoji: "🎬", title: "Valo- ja videokuvaus",
-    desc: "Sisällöntuotantoa, editointia ja visuaalista tarinankerrontaa tapahtumista ja yrityksistä.",
-    items: ["Tapahtumakuvaus", "Videotuotanto", "Adobe Premiere Pro", "DaVinci Resolve", "Lightroom", "Sosiaalisen median sisältö"],
+    desc: "Markkinointimateriaalia, tuotekuvausta, some-sisältöä ja tapahtumakuvausta. Referenssejä: Seinäjoen kauppakeskukset, NoHo Partnersin ravintolat, tapahtumat.",
+    items: ["Tapahtumakuvaus", "Videotuotanto", "Tuotekuvaus", "Adobe Premiere Pro / Lightroom", "DaVinci Resolve", "Sosiaalisen median sisältö"],
   },
   {
     num: "03", emoji: "🌐", title: "Web-kehitys & AI",
-    desc: "Verkkosivustoja, web-sovelluksia ja tekoälyratkaisuja yrityksille.",
-    items: ["Next.js / React", "WordPress", "Cloudflare Pages", "Docker", "AI-integraatiot", "SEO-optimointi"],
+    desc: "Viisi tuotannossa olevaa sivustoa: jollyjoker.fi, kivamedia.fi, niceevents.fi, djsnabu.com, palkaneenkesapaivat.fi. Rakennettuna oikeille tarpeille, ei templateille.",
+    items: ["Next.js / Astro / React", "WordPress", "Cloudflare Pages", "Docker", "AI-integraatiot", "SEO-optimointi"],
   },
   {
     num: "04", emoji: "⚡", title: "Automaatiot & integraatiot",
-    desc: "Liiketoimintaprosessien tehostamista älykkäillä automaatioilla.",
-    items: ["n8n-automaatiot", "Zapier", "REST API -integraatiot", "HubSpot / Odoo", "Taloushallinto-integraatiot", "Sähköposti- ja sopimustenhallinta"],
+    desc: "Keikkamyyntiputki, sopimukset, laskutus ja CRM – kaikki automaattisesti. Myös liidien hankinta-automaatio. Säästöjä dokumentoitu 300–10 000 €/kk.",
+    items: ["n8n-automaatiot", "REST API -integraatiot", "CRM-automaatio (HubSpot / Odoo)", "Laskutus & sopimukset", "Liidien hankinta", "Taloushallinto-integraatiot"],
   },
 ];
 
