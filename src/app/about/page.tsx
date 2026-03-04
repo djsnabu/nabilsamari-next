@@ -35,7 +35,7 @@ export default function About() {
       <section style={{ padding: "60px 24px", background: "#0a0a0a" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
           <p style={{ fontSize: 20, lineHeight: 1.8, color: "#ccc" }}>
-            Olen Nabil Samari. Olen tuottanut lähes 100 tapahtumaa, rakentanut viisi verkkosivustoa ja automatisoinut liiketoimintaprosesseja joista osa säästää 10 000 € kuussa. Seinäjoelta käsin, mutta töissä ympäri Suomen.
+            Olen Nabil Samari. Olen tuottanut lähes 100 tapahtumaa, rakentanut kuusi verkkosivustoa ja automatisoinut liiketoimintaprosesseja joista osa säästää 10 000 € kuussa. Seinäjoelta käsin, mutta töissä ympäri Suomen.
           </p>
           <p style={{ fontSize: 18, lineHeight: 1.8, color: "#888", marginTop: 24 }}>
             Minua ei tarvitse valita luovuuden ja tekniikan väliltä – tuon molemmat samaan pakettiin. Olen yhtä lailla kotona festivaalilavan takapuolella kuin terminaalissa tai asiakasneuvottelussa. Puhun sujuvasti suomea, englantia, arabiaa ja venäjää.

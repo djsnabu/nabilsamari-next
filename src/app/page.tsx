@@ -33,7 +33,7 @@ export default function Home() {
             Nabil<br />Samari
           </h1>
           <p style={{ fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.7)", lineHeight: 1.6, marginBottom: 40, maxWidth: 560, margin: "0 auto 40px" }}>
-            Lähes 100 tapahtumaa tuotettuna. Viisi verkkosivustoa käytössä. Automaatiot jotka säästävät 300–10 000 €/kk. Ja ihminen joka osaa puhua sekä koodille että asiakkaalle.
+            Lähes 100 tapahtumaa tuotettuna. Kuusi verkkosivustoa käytössä. Automaatiot jotka säästävät 300–10 000 €/kk. Ja ihminen joka osaa puhua sekä koodille että asiakkaalle.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <Link href="/contact" style={{ padding: "14px 32px", background: "#c9a84c", color: "#000", fontWeight: 700, fontSize: 15, borderRadius: 4, transition: "opacity 0.2s" }}>

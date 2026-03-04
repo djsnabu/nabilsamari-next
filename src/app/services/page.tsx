@@ -11,7 +11,7 @@ const services = [
   },
   {
     num: "03", emoji: "🌐", title: "Web-kehitys & AI",
-    desc: "Viisi tuotannossa olevaa sivustoa: jollyjoker.fi, kivamedia.fi, niceevents.fi, djsnabu.com, palkaneenkesapaivat.fi. Rakennettuna oikeille tarpeille, ei templateille.",
+    desc: "Kuusi tuotannossa olevaa sivustoa: jollyjoker.fi, kivamedia.fi, niceevents.fi, djsnabu.com, palkaneenkesapaivat.fi. Rakennettuna oikeille tarpeille, ei templateille.",
     items: ["Next.js / Astro / React", "WordPress", "Cloudflare Pages", "Docker", "AI-integraatiot", "SEO-optimointi"],
   },
   {
