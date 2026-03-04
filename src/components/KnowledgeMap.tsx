@@ -10,11 +10,11 @@ const DOMAINS = [
 ];
 
 const CONNECTIONS = [
-  { from: "events", to: "tech", label: "Tapahtuma × Koodi", insight: "Harvinainen yhdistelmä: tuotat festivaaleja JA rakennat automaatioita. Tämä 'tapahtuma-insinööri' -profiili on erittäin kysytty." },
-  { from: "performance", to: "tech", label: "Lava × Logiikka", insight: "Osaat sekä esiintyä lavalla että rakentaa API-integraatioita. Ainutlaatuinen kouluttaja – ymmärrät teknologian JA osaat selittää sen." },
-  { from: "business", to: "creative", label: "Myynti × Luovuus", insight: "Yhdistät myynnin ja luovan konseptoinnin: et vain keksi ideoita, vaan myös myyt ne ja kirjoitat pitch-meilit." },
-  { from: "events", to: "performance", label: "Etu- × Takapuoli", insight: "Olet sekä lavalla esiintyjänä ETTÄ lavan takana tuottajana. Tämä 360° -näkemys on harvinainen." },
-  { from: "tech", to: "business", label: "Rakentaja × Yrittäjä", insight: "Rakennat automaatioita omaan liiketoimintaasi – käytännössä, ei teoriassa. 'Builder-founder' -mentaliteetti erottaa sinut." },
+  { from: "events", to: "tech", label: "Tapahtuma × Koodi", insight: "Nabil tuottaa festivaaleja ja rakentaa automaatioita – sama ihminen, sama projekti. Harvalla on molemmat: ymmärrys siitä mitä kentällä tapahtuu ja kyky rakentaa järjestelmät sen ympärille." },
+  { from: "performance", to: "tech", label: "Lava × Logiikka", insight: "17 vuotta lavalla tarkoittaa, että teknologia ei ole teoriaa vaan työkalu jonka täytyy toimia paineessa. Hän osaa myös selittää monimutkaiset asiat selkeästi – oli kyse koulutuksesta, pitchistä tai käyttöönottopalaverista." },
+  { from: "business", to: "creative", label: "Myynti × Luovuus", insight: "Konsepti syntyy, se myydään ja toteutetaan – saman katon alla. Ei erillistä luovaa tiimiä ja erillistä myyntitiimiä. Nabil vie idean asiakkaalle ja tekee sen valmiiksi." },
+  { from: "events", to: "performance", label: "Tuottaja × Esiintyjä", insight: "Hän on ollut sekä lavalla että lavan takana. Tämä tarkoittaa käytännössä, että hän ymmärtää sekä esiintyjän että tuottajan tarpeet – ja pystyy toimimaan molemmissa rooleissa samassa projektissa." },
+  { from: "tech", to: "business", label: "Rakentaja × Yrittäjä", insight: "Automaatiot jotka Nabil rakentaa eivät ole demoja – ne pyörivät hänen omassa liiketoiminnassaan ja asiakkaiden prosesseissa. 16 vuotta yrittäjänä tarkoittaa, että hän tietää mikä oikeasti säästää aikaa ja rahaa." },
 ];
 
 const BLIND_SPOTS = [
