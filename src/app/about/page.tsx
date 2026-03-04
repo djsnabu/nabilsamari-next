@@ -4,6 +4,7 @@ const experience = [
   { period: "2010 – nykyhetki", title: "Yrittäjä / Creative Technologist", company: "Nice Events (Kivat Tapahtumat Oy)", desc: "Perusti ja rakentaa edelleen omaa tapahtuma- ja teknologiayhtiötä. Asiakkaina yritykset, artistit ja ravintolat. Vastaa myynnistä, tuotannosta, web-kehityksestä ja automaatioista. Perusti Pällkäneen Kesäpäivät -festivaalin." },
   { period: "2021 – 2024", title: "Tapahtuma- ja markkinointipäällikkö", company: "Night People Group Oy (Wall Invest)", desc: "Vastasi koko ravintolaketjun tapahtumista ja digitaalisesta markkinoinnista. Otti käyttöön markkinoinnin automaatiot, koulutti tiimin ja rakensi prosessit skaalautuviksi." },
   { period: "2008 – nykyhetki", title: "Muusikko, DJ & juontaja", company: "Freelance", desc: "Kitaristi mm. HesaÄijässä, DJ-keikkoja ja juontamista ympäri Suomea. Esiintynyt mm. OmaSp Stadionfestillä. 17+ vuotta lavalla on opettanut enemmän ihmisten lukemisesta kuin mikään kurssi." },
+  { period: "2008 – 2017", title: "Ammattikitaristi", company: "HesaÄijä", desc: "9 vuotta ammattikitaristina yhdessä Suomen tunnetuimmista iskelmäyhtyeistä. Satoja keikkoja ympäri Suomen – isoista lavoista intiimeihin klubeihin. Antoi vankan pohjan esiintymiselle, paineensietokyvylle ja ihmisten kanssa toimimiselle." },
 ];
 
 const skills = [
