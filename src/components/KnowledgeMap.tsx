@@ -47,7 +47,7 @@ export default function KnowledgeMap() {
       {/* Tabs */}
       <div style={{ display: "flex", justifyContent: "center", gap: 8, marginBottom: 24 }}>
         {[{ id: "map", label: "🗺 Kartta" }, { id: "connections", label: "⚡ Yhteydet" }].map(tab => (
-          <button key={tab.id} onClick={() => { setView(tab.id as "map"|"connections"|"blind"); setActiveNode(null); setActiveConn(null); }} style={{
+          <button key={tab.id} onClick={() => { setView(tab.id as "map"|"connections"); setActiveNode(null); setActiveConn(null); }} style={{
             padding: "8px 16px", borderRadius: 20, border: view === tab.id ? "1px solid #7B61FF" : "1px solid rgba(255,255,255,0.1)",
             background: view === tab.id ? "rgba(123,97,255,0.12)" : "transparent",
             color: view === tab.id ? "#c4b5ff" : "#666", fontSize: 12, fontWeight: 600, cursor: "pointer",
