@@ -34,7 +34,7 @@ const positions: Record<string, { x: number; y: number }> = {
 export default function KnowledgeMap() {
   const [activeNode, setActiveNode] = useState<string | null>(null);
   const [activeConn, setActiveConn] = useState<number | null>(null);
-  const [view, setView] = useState<"map" | "connections" | "blind">("map");
+  const [view, setView] = useState<"map" | "connections">("map");
   const [animIn, setAnimIn] = useState(false);
 
   useEffect(() => { setTimeout(() => setAnimIn(true), 100); }, []);
@@ -46,7 +46,7 @@ export default function KnowledgeMap() {
     <div style={{ fontFamily: "'Inter', sans-serif", color: "#e0e0e0", padding: "24px 0" }}>
       {/* Tabs */}
       <div style={{ display: "flex", justifyContent: "center", gap: 8, marginBottom: 24 }}>
-        {[{ id: "map", label: "🗺 Kartta" }, { id: "connections", label: "⚡ Yhteydet" }, { id: "blind", label: "🔭 Sokeat pisteet" }].map(tab => (
+        {[{ id: "map", label: "🗺 Kartta" }, { id: "connections", label: "⚡ Yhteydet" }].map(tab => (
           <button key={tab.id} onClick={() => { setView(tab.id as "map"|"connections"|"blind"); setActiveNode(null); setActiveConn(null); }} style={{
             padding: "8px 16px", borderRadius: 20, border: view === tab.id ? "1px solid #7B61FF" : "1px solid rgba(255,255,255,0.1)",
             background: view === tab.id ? "rgba(123,97,255,0.12)" : "transparent",
@@ -139,25 +139,7 @@ export default function KnowledgeMap() {
         </div>
       )}
 
-      {view === "blind" && (
-        <div style={{ maxWidth: 600, margin: "0 auto" }}>
-          {BLIND_SPOTS.map((spot, i) => (
-            <div key={i} style={{ padding: 20, borderRadius: 16, background: "rgba(255,255,255,0.03)", border: "1px dashed rgba(255,255,255,0.1)", marginBottom: 12 }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
-                <span style={{ fontSize: 24 }}>{spot.icon}</span>
-                <span style={{ fontSize: 15, fontWeight: 700, color: "#FFB800" }}>{spot.area}</span>
-              </div>
-              <p style={{ fontSize: 13, lineHeight: 1.7, color: "#999", margin: 0 }}>{spot.note}</p>
-            </div>
-          ))}
-          <div style={{ marginTop: 16, padding: 20, borderRadius: 16, background: "rgba(0,201,167,0.05)", border: "1px solid rgba(0,201,167,0.15)" }}>
-            <div style={{ fontSize: 14, fontWeight: 700, color: "#00C9A7", marginBottom: 8 }}>💡 Suurin oivallus</div>
-            <p style={{ fontSize: 13, lineHeight: 1.7, color: "#aaa", margin: 0 }}>
-              Profiilisi ydin on <strong style={{ color: "#e0e0e0" }}>&ldquo;tekninen luova yrittäjä&rdquo;</strong> – harvinainen ihminen joka sekä keksii konsepteja, myy niitä, tuottaa ne ja automatisoi prosessit niiden ympärillä.
-            </p>
-          </div>
-        </div>
-      )}
+
     </div>
   );
 }
