@@ -9,7 +9,7 @@ const clients = [
   { name: "Itä-Helsingin Ravintolat Oy", logo: null },
   { name: "Wall Invest", logo: null },
   { name: "Kiva Media", logo: null },
-  { name: "HesaÄijä", logo: null },
+  { name: "HesaÄijä", logo: "/logos/hesaaija.jpg" },
   { name: "Nice Events", logo: null },
   { name: "Pällkäneen Kesäpäivät", logo: null },
 ];
